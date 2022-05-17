@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-container {
+    display: flex;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+}
