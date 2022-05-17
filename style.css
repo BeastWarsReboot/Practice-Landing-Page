@@ -1,19 +1,33 @@
 body {
     height: 100vh;
     margin: 0;
+    font-family: Roboto, sans-serif;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    margin-left: 75px;
-    margin-right: 75px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.header-container, .hero-container {
+    display: flex;
+    margin: 20px 100px 75px;
+    justify-content: space-between;
+    /* 
+    or use padding: 20px 100px 75px;
+    not sure which alternative is better and why
+    */
+    /* border: 3px solid black; */
 }
 
 .header-container {
-    display: flex;
     align-items: center;
-    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
 }
 
 ul {
@@ -25,14 +39,43 @@ ul {
 }
 
 a {
+    color: white;
     text-decoration: none;
 }
 
 .hero-container {
-    display: flex;
+    /* */
 }
 
 .hero-left {
-    display: flex;
-    flex-direction: column;
+   padding-right: 30px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-secondary {
+    font-size: 18px;
+}
+
+
+.hero-left,.hero-right {
+    /* border: 3px solid black; */
+}
+
+img { /* placeholder */
+    width: 600px;
+    height: 300px;
+}
+
+button {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background-color: #3882F6;
+    padding: 7px 25px;
+    border: none;
+    border-radius: 5px;
 }
