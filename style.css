@@ -4,6 +4,8 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+/*-----HEAD SECTION-----*/
+
 .container {
     display: flex;
     flex-direction: column;
@@ -28,6 +30,7 @@ body {
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
 }
 
 ul {
@@ -61,12 +64,13 @@ a {
     color:rgb(214, 214, 214);
 }
 
-
+/*
 .hero-left,.hero-right {
-    /* border: 3px solid black; */
+     border: 3px solid black; 
 }
+*/
 
-img { /* placeholder */
+.theater { /* placeholder */
     width: 600px;
     height: 300px;
 }
@@ -77,15 +81,34 @@ button {
     font-weight: bold;
     background-color: #3882F6;
     padding: 7px 25px;
+    margin-top: 7px;
     border: none;
     border-radius: 5px;
 }
 
+
+/*-----INFO SECTION-----*/
+
 .info {
     text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 50px 0;
 }
 
 .info-container {
     display: flex;
     justify-content: center;
+}
+
+.card1, .card2, .card3, .card4 {
+    max-width: 300px;
+    text-align: center;
+}
+
+.info-pic {
+    width: 175px;
+    height: 175px;
+    border: 3px solid black;
+    border-radius: 8px;
 }
