@@ -4,7 +4,7 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-.container1 {
+.container {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
@@ -79,4 +79,13 @@ button {
     padding: 7px 25px;
     border: none;
     border-radius: 5px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
 }
