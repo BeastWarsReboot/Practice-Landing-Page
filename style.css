@@ -118,3 +118,18 @@ button {
     padding-top: 5px;
     width: 175px;
 }
+
+/*-----QUOTE SECTION-----*/
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+}
+
+.quote-text {
+    text-align: center;
+    border: 3px solid black;
+}
