@@ -75,7 +75,7 @@ a {
     height: 300px;
 }
 
-button {
+.signup-1 {
     font-size: 18px;
     color: white;
     font-weight: bold;
@@ -157,3 +157,16 @@ button {
 
 /*--Sign Up Section--*/
 
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    /*--align-items: center;--*/
+}
+
+.sign-up-container {
+    display: flex;
+    padding: 30px 100px;
+    background-color: aqua;
+    border-radius: 8px;
+}
