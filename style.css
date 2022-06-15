@@ -9,19 +9,15 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #1F2937;
     color: white;
 }
 
 .header-container, .hero-container {
     display: flex;
-    margin: 20px 100px 75px;
+    width: 1100px;
     justify-content: space-between;
-    /* 
-    or use padding: 20px 100px 75px;
-    not sure which alternative is better and why
-    */
-    /* border: 3px solid black; */
 }
 
 .header-container {
@@ -47,31 +43,23 @@ a {
 }
 
 .hero-container {
-    /* */
-}
-
-.hero-left {
-   padding-right: 30px;
+    margin: 100px 0;
 }
 
 .hero-main {
+    margin-right: 300px;
     font-size: 48px;
     font-weight: bold;
 }
 
 .hero-secondary {
     font-size: 18px;
+    font-weight: lighter;
     color:rgb(214, 214, 214);
 }
 
-/*
-.hero-left,.hero-right {
-     border: 3px solid black; 
-}
-*/
-
-.theater { /* placeholder */
-    width: 600px;
+.theater {
+    width: 800px;
     height: 300px;
 }
 
@@ -81,7 +69,6 @@ a {
     font-weight: bold;
     background-color: #3882F6;
     padding: 7px 25px;
-    margin-top: 7px;
     border: none;
     border-radius: 5px;
 }
@@ -122,7 +109,6 @@ a {
 /*-----QUOTE SECTION-----*/
 
 .quote-container {
-    /*--margin: 100px 400px;--*/
     margin-top: 100px;
     display: flex;
     justify-content: center;
@@ -134,13 +120,8 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*--border: 3px solid black;--*/
     width: 600px;
     margin: 100px 0;
-}
-
-.quote-text, .quote-author {
-    /*--margin: 0 400px;-*/
 }
 
 .quote-text {
@@ -163,7 +144,6 @@ a {
     justify-content: center;
     align-items: center;
     margin: 100px 0;
-    /*--align-items: center;--*/
 }
 
 .sign-up-container {
