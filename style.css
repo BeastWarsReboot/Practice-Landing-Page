@@ -6,21 +6,22 @@ body {
 
 /*-----HEAD SECTION-----*/
 
-.container {
+.header-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #2D0F59;
+    background-color: #0D0007;
     color: #FFC3A1;
 }
 
-.header-container, .hero-container {
+.links-container, .hero-container {
     display: flex;
     width: 1100px;
     justify-content: space-between;
+    margin-top: 25px;
 }
 
-.header-container {
+.links-container {
     align-items: center;
 }
 
@@ -55,8 +56,7 @@ a {
 .hero-secondary {
     font-size: 18px;
     font-weight: lighter;
-    color:#EBB494
-    ;
+    color:#EBB494;
 }
 
 .theater {
@@ -66,9 +66,9 @@ a {
 
 .signup-1 {
     font-size: 18px;
-    color: #FFFD77;
+    color: #0D0007;
     font-weight: bold;
-    background-color: #388697;
+    background-color: #F29F05;
     padding: 7px 25px;
     border: none;
     border-radius: 5px;
@@ -77,20 +77,22 @@ a {
 
 /*-----INFO SECTION-----*/
 
-/*---MUST FIX STYLING FOR THIS SECTION*/
-
 .info {
     text-align: center;
     font-size: 36px;
     font-weight: bold;
-    margin: 50px 0;
-    background-color: #696D7D;
+    padding: 50px 0;
 }
 
 .info-container {
     display: flex;
     justify-content: center;
-    background-color: #696D7D;
+    padding-bottom: 100px;
+}
+
+.info, .info-container {
+    background-color: #59022B;
+    color: #FFC3A1;
 }
 
 .card1, .card2, .card3, .card4 {
@@ -102,7 +104,7 @@ a {
 .info-pic {
     width: 175px;
     height: 175px;
-    border: 3px solid black; /*CHANGE COLOR*/
+    border: 3px solid #F29F05;
     border-radius: 8px;
 }
 
@@ -114,11 +116,10 @@ a {
 /*-----QUOTE SECTION-----*/
 
 .quote-container {
-    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: green;
+    background-color: #4A0123;
 }
 
 .quote-content {
@@ -133,13 +134,14 @@ a {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    color: #1F2937;
+    color: #BF7E04;
 }
 
 .quote-author {
     font-size: 20px;
     text-align: right;
     font-weight: bold;
+    color: #FFA805;
 }
 
 /*--Sign Up Section--*/
@@ -149,7 +151,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 100px 0;
-    background-color: #696D7D;
+    background-color: #59022B;
 }
 
 .sign-up-container {
@@ -158,14 +160,14 @@ a {
     align-items: center;
     width: 800px;
     padding: 30px;
-    background-color: #388697;
+    background-color: #F29F05;
     border-radius: 8px;
 }
 
 .sign-up-text {
     font-weight: bold;
     font-size: 20px;
-    color: #FFFD77;
+    color: #0D0007;
 }
 
 .sign-up-secondary-text {
@@ -174,12 +176,12 @@ a {
 
 .signup-2 {
     font-size: 18px;
-    color: #FFFD77;
+    color: #0D0007;
     font-weight: bold;
-    background-color: #388697;
+    background-color: #F29F05;
     padding: 7px 25px;
     margin-top: 7px;
-    border: 2px solid #FFFD77;
+    border: 2px solid #0D0007;
     border-radius: 5px;
 }
 
@@ -189,7 +191,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937;
-    color: white;
+    background-color: #0D0007;
+    color: #FFC3A1;
     padding: 30px 0;
 }
