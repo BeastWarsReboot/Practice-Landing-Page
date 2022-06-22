@@ -9,21 +9,20 @@ body {
 .header-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: #0D0007;
     color: #FFC3A1;
 }
 
 .links-container, .hero-container {
     display: flex;
-    width: 1100px;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 25px;
 }
 
 .links-container {
     align-items: center;
 }
+
 
 .logo {
     font-size: 24px;
@@ -48,9 +47,9 @@ a {
 }
 
 .hero-main {
-    margin-right: 300px;
     font-size: 48px;
     font-weight: bold;
+    max-width: 600px;
 }
 
 .hero-secondary {
@@ -60,8 +59,8 @@ a {
 }
 
 .theater {
-    width: 800px;
-    height: 300px;
+    height: auto;
+    width: 500px;
 }
 
 .signup-1 {
